@@ -1,0 +1,18 @@
+# Local tools, research data and credentials
+.env
+.env.*
+*.pem
+*.key
+__pycache__/
+node_modules/
+.codex-finalizer/
+.ppt-build/
+.research/
+outputs/
+*.zip
+*.tmp
+# Original private reference photos are never part of this package
+references/images/
+_cgi-bin_mmwebwx-bin_webwxgetmsgimg*
+*.jpg
+*.jpeg

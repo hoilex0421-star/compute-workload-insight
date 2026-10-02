@@ -1,0 +1,4 @@
+interface:
+  display_name: "算力负载洞察"
+  short_description: "把模型技术演进推导为算力负载、Infra优化与计算系统需求的阅读型PPT"
+  default_prompt: "请使用 $compute-workload-insight，按参考页型梳理技术趋势、量化负载变化与系统需求，并标明事实、预测和测算假设。"
