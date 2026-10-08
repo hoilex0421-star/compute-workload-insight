@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="250" viewBox="0 0 440 250" role="img" aria-labelledby="title desc">
+<title id="title">跨帧区域特征复用的通用示意</title><desc id="desc">两张网格表示相邻帧。蓝色区域在有效性检查通过后复用；红色失效区域重新计算。</desc>
+<defs><marker id="arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0 0L6 3L0 6Z" fill="#245b78"/></marker><pattern id="grid" width="31" height="31" patternUnits="userSpaceOnUse"><rect x="1" y="1" width="28" height="28" rx="3" fill="#dfebf1" stroke="#96b2c1"/></pattern></defs>
+<rect width="440" height="250" rx="12" fill="#f7f9fa"/>
+<g font-family="Microsoft YaHei,sans-serif" font-size="15" fill="#29424e">
+<text x="20" y="28" font-size="18" font-weight="700">有效区域复用，失效区域更新</text>
+<text x="83" y="57" text-anchor="middle">上一帧</text><text x="357" y="57" text-anchor="middle">当前帧</text>
+<svg x="21" y="68" width="124" height="93"><rect width="124" height="93" fill="url(#grid)"/><rect x="32" y="32" width="28" height="28" rx="3" fill="#f4e4e5" stroke="#b51e29" stroke-width="2"/><rect x="63" y="32" width="28" height="28" rx="3" fill="#f4e4e5" stroke="#b51e29" stroke-width="2"/></svg>
+<svg x="295" y="68" width="124" height="93"><rect width="124" height="93" fill="url(#grid)"/><rect x="63" y="32" width="28" height="28" rx="3" fill="#f4e4e5" stroke="#b51e29" stroke-width="2"/><rect x="94" y="32" width="28" height="28" rx="3" fill="#f4e4e5" stroke="#b51e29" stroke-width="2"/></svg>
+<path d="M148 115H181M258 115H290" stroke="#245b78" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M186 99V133C186 143 254 143 254 133V99Z" fill="#e1f0ed" stroke="#238b8e" stroke-width="2"/>
+<ellipse cx="220" cy="99" rx="34" ry="9" fill="#edf7f4" stroke="#238b8e" stroke-width="2"/>
+<text x="220" y="125" text-anchor="middle" fill="#236b6d">缓存</text>
+<path d="M382 155V177H273" fill="none" stroke="#b51e29" stroke-width="2"/>
+<text x="271" y="196" text-anchor="middle" fill="#b51e29">失效区域重新计算</text>
+<rect x="24" y="179" width="15" height="15" rx="2" fill="#dfebf1" stroke="#245b78"/><text x="46" y="192">有效复用</text>
+<text x="220" y="229" text-anchor="middle">缓存命中与失效条件决定实际收益</text>
+</g></svg>

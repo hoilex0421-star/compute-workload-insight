@@ -7,3 +7,4 @@
 *.jpg binary
 *.jpeg binary
 *.pptx binary
+*.svg text eol=lf

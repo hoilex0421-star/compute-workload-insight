@@ -10,7 +10,7 @@
 
 [下载三页HTML](assets/prelude-examples.html) · [路线比较预览](assets/prelude-example-01.png) · [执行机制预览](assets/prelude-example-02.png) · [优化机制预览](assets/prelude-example-03.png)
 
-将HTML下载到本地后，用浏览器打开即可离线翻页、点击图示放大并回看对应原稿整页。页面保留路线结构、机器人输入输出、联合生成及优化机制图，围绕主视觉配置分析、变量和结论。标题、公式与分析标注为HTML文字；引用图片内部文字仍是图像。
+将HTML下载到本地后，用浏览器打开即可离线翻页和放大原创图示。页面使用独立设计的路线图、抽象机械臂场景、生成回路、缓存和时序图，围绕主视觉配置分析、变量与结论。标题、公式与分析标注为HTML文字，SVG源图可单独编辑；示例不携带内部截图或原稿回看。
 
 原有[可编辑单页PPT](assets/standard-topic-example.pptx)与[预览](assets/standard-topic-preview.png)继续保留，用于C型标准专题页。详见[模板使用说明](references/template-guide.md)。
 
@@ -39,10 +39,10 @@
 
 - `SKILL.md`、`agents/openai.yaml`：技能入口、使用边界和界面提示。
 - `references/`：分析字段、页型、前置推导、视觉规则、验收清单及来源索引。
-- `references/images/`：用户提供的参考照片及PDF精选页，用于学习论证与版式。
+- `assets/diagrams/`：10张原创通用机制SVG，便于编辑和复用。
 - `assets/`：三页HTML、逐页预览及原有标准专题PPT示例。
 - [初创企业投资推荐技能](skills/startup-investment-recommendation/SKILL.md)：支持框架、文案、离线HTML与证据审阅。[三页虚构HTML示例](skills/startup-investment-recommendation/assets/investment-example.html) · [预览](skills/startup-investment-recommendation/assets/investment-example-preview.png)。该技能目录仅含通用方法与原创虚构示例，不含原始投资模板。
 
-本仓库为私有。参考资料来自用户提供的材料，详细页码映射见[参考索引](references/source-gallery.md)。参考图和示例中的技术说法、数值及预测未因纳入模板而得到独立核验；新专题须重新判断证据状态。扫描图的微小标签受源文件清晰度限制。
+本仓库为私有。当前示例资源见[可分享示例索引](references/source-gallery.md)，均为通用机制说明，不对应内部产品、配置或实验结果。图中节点数量、时序长度与曲线没有实际量纲；新专题仍需重新确定数据来源和证据状态。对明确保密的材料，使用原创抽象图或已获准引用的公开资料，不以换色、去标识或描边代替内容检查。
 
-仓库不包含完整工作区、构建临时文件、API密钥、模型权重或原始PDF文件。
+当前版本不包含内部参考图片、完整工作区、构建临时文件、API密钥、模型权重或原始PDF文件。

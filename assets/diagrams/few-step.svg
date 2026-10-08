@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="250" viewBox="0 0 440 250" role="img" aria-labelledby="title desc">
+<title id="title">减少重复迭代的通用示意</title><desc id="desc">上方较多模型调用，下方较少模型调用。每个环形节点表示一次迭代；示意不代表真实加速比例。</desc>
+<defs><marker id="arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0 0L6 3L0 6Z" fill="#81929c"/></marker></defs>
+<rect width="440" height="250" rx="12" fill="#f7f9fa"/>
+<g font-family="Microsoft YaHei,sans-serif" font-size="15" fill="#29424e">
+<text x="20" y="28" font-size="18" font-weight="700">减少重复的模型调用</text>
+<text x="20" y="74">多次</text><text x="20" y="94">迭代</text>
+<path d="M79 82H410" stroke="#81929c" stroke-width="2" marker-end="url(#arrow)"/>
+<g fill="#e2ebf0" stroke="#245b78" stroke-width="2.5">
+<circle cx="98" cy="82" r="16"/><circle cx="151" cy="82" r="16"/><circle cx="204" cy="82" r="16"/><circle cx="257" cy="82" r="16"/><circle cx="310" cy="82" r="16"/><circle cx="363" cy="82" r="16"/>
+</g>
+<g fill="#245b78"><circle cx="98" cy="82" r="5"/><circle cx="151" cy="82" r="5"/><circle cx="204" cy="82" r="5"/><circle cx="257" cy="82" r="5"/><circle cx="310" cy="82" r="5"/><circle cx="363" cy="82" r="5"/></g>
+<path d="M228 111V133" stroke="#81929c" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="20" y="162">少次</text><text x="20" y="182">迭代</text>
+<path d="M79 170H410" stroke="#81929c" stroke-width="2" marker-end="url(#arrow)"/>
+<g fill="#e1f0ed" stroke="#238b8e" stroke-width="2.5"><circle cx="98" cy="170" r="19"/><circle cx="231" cy="170" r="19"/><circle cx="363" cy="170" r="19"/></g>
+<g fill="#238b8e"><circle cx="98" cy="170" r="6"/><circle cx="231" cy="170" r="6"/><circle cx="363" cy="170" r="6"/></g>
+<text x="220" y="220" text-anchor="middle">更少调用 → 仍需验证单步成本与质量</text>
+<text x="220" y="240" fill="#6b7c87" text-anchor="middle">机制示意，非性能测量</text>
+</g></svg>

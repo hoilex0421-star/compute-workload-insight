@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="250" viewBox="0 0 440 250" role="img" aria-labelledby="title desc">
+<title id="title">有无阶段屏障的计算流水线示意</title><desc id="desc">上方同步流程在采样与更新间等待，下方异步流程通过缓冲解耦并交叠采样与更新。各条长度不代表真实时间。</desc>
+<defs><marker id="arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0 0L6 3L0 6Z" fill="#81929c"/></marker></defs>
+<rect width="440" height="250" rx="12" fill="#f7f9fa"/>
+<g font-family="Microsoft YaHei,sans-serif" font-size="15" fill="#29424e">
+<text x="20" y="26" font-size="18" font-weight="700">缓冲解耦，使阶段交叠</text>
+<text x="20" y="52" fill="#6b7c87">有屏障</text><path d="M104 46H410" stroke="#b9c4cb" marker-end="url(#arrow)"/><text x="385" y="41" fill="#6b7c87">时间</text>
+<text x="20" y="77">采样</text><text x="20" y="107">更新</text>
+<g fill="#245b78"><rect x="80" y="61" width="96" height="20" rx="3"/><rect x="279" y="61" width="111" height="20" rx="3"/></g>
+<rect x="187" y="91" width="81" height="20" rx="3" fill="#238b8e"/>
+<g stroke="#b51e29" stroke-width="1.5" stroke-dasharray="4 3"><path d="M181 56V116"/><path d="M274 56V116"/></g>
+<g fill="#dfe4e7"><rect x="187" y="61" width="81" height="20" rx="3"/><rect x="80" y="91" width="96" height="20" rx="3"/></g>
+<text x="227" y="77" text-anchor="middle" fill="#667985">等待</text><text x="128" y="107" text-anchor="middle" fill="#667985">等待</text>
+<path d="M20 126H420" stroke="#dfe4e7"/>
+<text x="20" y="150" fill="#6b7c87">无逐阶段屏障</text>
+<text x="20" y="174">采样</text><text x="20" y="204">更新</text>
+<g fill="#245b78"><rect x="80" y="158" width="78" height="20" rx="3"/><rect x="165" y="158" width="91" height="20" rx="3"/><rect x="263" y="158" width="78" height="20" rx="3"/><rect x="348" y="158" width="53" height="20" rx="3"/></g>
+<g fill="#238b8e"><rect x="127" y="188" width="65" height="20" rx="3"/><rect x="199" y="188" width="79" height="20" rx="3"/><rect x="285" y="188" width="65" height="20" rx="3"/><rect x="357" y="188" width="44" height="20" rx="3"/></g>
+<g stroke="#95a9b5" stroke-width="1.5"><path d="M150 179V187"/><path d="M234 179V187"/><path d="M311 179V187"/></g>
+<text x="220" y="236" text-anchor="middle" fill="#6b7c87">时序示意，非按比例</text>
+</g></svg>

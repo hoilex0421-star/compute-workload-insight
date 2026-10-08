@@ -11,9 +11,8 @@ node_modules/
 outputs/
 *.zip
 *.tmp
-# Only curated skill reference images are included in this private repository
+# Original internal references stay outside distributed skill assets
+references/images/
 _cgi-bin_mmwebwx-bin_webwxgetmsgimg*
 *.jpg
 *.jpeg
-!references/images/*.jpg
-!references/images/*.jpeg
