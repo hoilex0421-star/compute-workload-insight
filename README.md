@@ -4,15 +4,17 @@
 
 **分析链条：** 场景需求与约束 → 技术路线与执行机制 → 负载变量变化 → 计算、访存、通信和调度影响 → 优化及代价 → 有条件的系统需求。
 
-## 三页图文示例
+## 前置推导与总结示例
 
-![优化机制与负载变化预览](assets/prelude-example-03.png)
+![原标准专题总结页](assets/standard-topic-preview.png)
 
-[下载三页HTML](assets/prelude-examples.html) · [路线比较预览](assets/prelude-example-01.png) · [执行机制预览](assets/prelude-example-02.png) · [优化机制预览](assets/prelude-example-03.png)
+[下载四页完整HTML](assets/complete-example.html) · [原可编辑总结页PPT](assets/standard-topic-example.pptx) · [单独使用三页前置HTML](assets/prelude-examples.html)
 
-将HTML下载到本地后，用浏览器打开即可离线翻页和放大原创图示。页面使用独立设计的路线图、抽象机械臂场景、生成回路、缓存和时序图，围绕主视觉配置分析、变量与结论。标题、公式与分析标注为HTML文字，SVG源图可单独编辑；示例不携带内部截图或原稿回看。
+本次示例按 **P2技术路线 → P3执行机制 → P6优化机制 → C原标准专题总结** 组织。前三页使用独立设计的路线图、抽象机械臂场景、生成回路、缓存和时序图，围绕主视觉配置分析、变量与结论；最后保留原skill生成的C型单页及其红白版式。三页前置例和原单页也可独立使用。
 
-原有[可编辑单页PPT](assets/standard-topic-example.pptx)与[预览](assets/standard-topic-preview.png)继续保留，用于C型标准专题页。详见[模板使用说明](references/template-guide.md)。
+HTML下载后可离线翻页和放大。前三页是HTML文字与SVG图示，第四页是原生成总结页的忠实预览；可编辑文字、表格及来源备注保留在随附PPT中。下载PPT时与HTML放在同一目录，页面内的PPT链接即可使用。生成页预览不是保密PDF原图，交付不包含内部截图或原稿回看。
+
+原总结页中的日期、数字、证据状态与预测按原示例保留；本次仅整合模板，不代表重新核验，也不能由前三页通用机制图推定具体案例已被验证。详见[模板使用说明](references/template-guide.md)与[示例索引](references/source-gallery.md)。
 
 ## 页型结构
 
@@ -40,9 +42,9 @@
 - `SKILL.md`、`agents/openai.yaml`：技能入口、使用边界和界面提示。
 - `references/`：分析字段、页型、前置推导、视觉规则、验收清单及来源索引。
 - `assets/diagrams/`：10张原创通用机制SVG，便于编辑和复用。
-- `assets/`：三页HTML、逐页预览及原有标准专题PPT示例。
+- `assets/`：四页完整HTML、独立三页前置HTML、逐页预览及原可编辑标准专题PPT。
 - [初创企业投资推荐技能](skills/startup-investment-recommendation/SKILL.md)：支持框架、文案、离线HTML与证据审阅。[三页虚构HTML示例](skills/startup-investment-recommendation/assets/investment-example.html) · [预览](skills/startup-investment-recommendation/assets/investment-example-preview.png)。该技能目录仅含通用方法与原创虚构示例，不含原始投资模板。
 
-本仓库为私有。当前示例资源见[可分享示例索引](references/source-gallery.md)，均为通用机制说明，不对应内部产品、配置或实验结果。图中节点数量、时序长度与曲线没有实际量纲；新专题仍需重新确定数据来源和证据状态。对明确保密的材料，使用原创抽象图或已获准引用的公开资料，不以换色、去标识或描边代替内容检查。
+本仓库为私有。当前示例资源见[可分享示例索引](references/source-gallery.md)。前三页为通用机制说明，不对应内部产品、配置或实验结果，图中节点数量、时序长度与曲线没有实际量纲；原总结页保留既有案例及其证据边界；新专题仍需重新确定数据来源和证据状态。对明确保密的材料，使用原创抽象图或已获准引用的公开资料，不以换色、去标识或描边代替内容检查。
 
 当前版本不包含内部参考图片、完整工作区、构建临时文件、API密钥、模型权重或原始PDF文件。
