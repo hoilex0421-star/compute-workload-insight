@@ -11,8 +11,9 @@ node_modules/
 outputs/
 *.zip
 *.tmp
-# Original private reference photos are never part of this package
-references/images/
+# Only curated skill reference images are included in this private repository
 _cgi-bin_mmwebwx-bin_webwxgetmsgimg*
 *.jpg
 *.jpeg
+!references/images/*.jpg
+!references/images/*.jpeg
