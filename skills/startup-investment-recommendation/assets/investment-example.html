@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light">
+<title>澄迹传感｜虚构战略投资立项示例</title>
+<style>
+:root{--red:#b91624;--red-dark:#991321;--pink:#fbf0f1;--ink:#25262a;--muted:#62656c;--line:#dce0e4;--gray:#f5f6f7;--white:#fff;font-family:"Microsoft YaHei","PingFang SC","Noto Sans CJK SC",sans-serif;color:var(--ink);background:#eaedef;font-synthesis:none}
+*{box-sizing:border-box}body{margin:0;height:100vh;height:100dvh;display:flex;flex-direction:column;overflow:hidden}button{font:inherit;cursor:pointer}button:focus-visible,a:focus-visible{outline:3px solid var(--red);outline-offset:4px}button:disabled{cursor:default;opacity:.35}.appbar,.controls{display:flex;align-items:center;gap:16px;background:var(--white);padding:14px 24px;flex-shrink:0;z-index:2}.appbar{border-bottom:1px solid var(--line);justify-content:space-between;min-height:66px}.app-title{font-size:17px;font-weight:700}.app-title small{font-size:13px;font-weight:400;color:var(--muted);margin-left:12px}.toolbar{display:flex;gap:8px}.ui-button{border:1px solid #cdd1d6;border-radius:7px;background:white;color:var(--ink);padding:9px 15px;font-size:14px;white-space:nowrap}.ui-button:hover:not(:disabled){border-color:var(--red);color:var(--red)}.ui-button[aria-pressed="true"]{color:var(--red);border-color:var(--red);background:var(--pink)}.viewport{flex:1;min-height:0;overflow:auto;padding:16px;overscroll-behavior:contain}.stage{position:relative;margin:0 auto;flex-shrink:0;background:white;box-shadow:0 4px 26px #22222218}.slide{width:1600px;height:900px;padding:36px 56px 24px;display:grid;grid-template-rows:30px 68px 78px 1fr 36px;gap:16px;position:absolute;top:0;left:0;transform-origin:top left;background:white;overflow:hidden}.slide[hidden]{display:none}.topline{display:flex;align-items:center;justify-content:space-between;gap:20px;font-size:19px;color:var(--muted)}.fiction-label{display:inline-flex;align-items:center;gap:12px;color:var(--red-dark);font-weight:700}.fiction-label:before{content:"";height:18px;width:5px;background:var(--red)}.section-code{font-size:18px;letter-spacing:1.4px}.slide h1{font-size:44px;line-height:1.3;align-self:center;margin:0;font-weight:700;color:var(--red);letter-spacing:.2px}.insight{display:flex;align-items:center;gap:22px;background:var(--pink);border-left:5px solid var(--red);padding:15px 23px;font-size:26px;line-height:1.45}.insight strong{color:var(--red-dark);white-space:nowrap;font-size:25px}.insight p{margin:0}.content{min-height:0}.slide-footer{display:flex;align-items:center;justify-content:space-between;border-top:1px solid var(--line);padding-top:12px;font-size:17px;color:var(--muted);gap:20px}.slide-footer span:last-child{white-space:nowrap;font-variant-numeric:tabular-nums}.summary-grid{display:grid;grid-template-columns:1.65fr 1fr;gap:24px}.summary-left{display:grid;grid-template-rows:228px 1fr;gap:20px;min-height:0}.panel{border:1px solid var(--line);border-radius:10px;padding:23px 25px;background:white;min-height:0}.panel-title{margin:0 0 15px;font-size:27px;line-height:1.4;font-weight:700}.panel-title .minor{font-size:21px;font-weight:400;color:var(--muted)}.diagram-panel{border:1.5px dashed #c9a5aa;background:#fffdfd;padding:18px 22px;position:relative}.diagram-panel .panel-title{font-size:25px;margin-bottom:8px}.diagram-panel figure{margin:0}.diagram-panel svg{width:100%;height:147px;display:block}.zoom-button{position:absolute;right:18px;top:15px;border:1px solid #d4b7bb;border-radius:5px;background:white;color:var(--red-dark);font-size:17px;padding:6px 10px}.diagram-note{font-size:19px;color:var(--muted);margin:0}.evidence-pair{display:grid;grid-template-columns:1fr 1fr;gap:20px;min-height:0}.evidence-pair .panel{padding:20px 23px}.status-tag{display:inline-block;font-size:19px;line-height:1.5;font-weight:700;color:var(--red-dark);background:var(--pink);padding:3px 10px;border-radius:4px;margin-bottom:13px}.status-tag.gray{color:#50545b;background:#eceef0}.evidence-pair h3{font-size:30px;line-height:1.35;margin:0 0 14px}.evidence-pair p{font-size:24px;line-height:1.5;margin:0 0 13px}.source-button{font-size:19px;line-height:1.4;color:var(--red-dark);background:none;border:0;border-bottom:1px solid #cdb2b6;padding:0 0 2px}.decision-panel{background:var(--gray);border-color:var(--gray);display:flex;flex-direction:column;gap:16px}.decision-item{padding-bottom:16px;border-bottom:1px solid var(--line)}.decision-item:last-of-type{border-bottom:0;padding-bottom:0}.decision-item h3{font-size:26px;margin:0 0 7px;line-height:1.35}.decision-item p{font-size:24px;line-height:1.5;margin:0}.decision-item strong{color:var(--red-dark)}.decision-tail{font-size:21px;line-height:1.5;border-left:3px solid var(--red);padding-left:15px;margin-top:auto;color:var(--muted)}.comparison-wrap{border:1px solid var(--line);border-radius:10px;overflow:hidden;height:100%}.comparison{border-collapse:collapse;table-layout:fixed;width:100%;height:100%;font-size:24px;line-height:1.48}.comparison col:first-child{width:13%}.comparison col:nth-child(2){width:28%}.comparison col:nth-child(3){width:29%}.comparison col:last-child{width:30%}.comparison th,.comparison td{padding:14px 23px;border-bottom:1px solid var(--line);border-right:1px solid var(--line);vertical-align:top;text-align:left}.comparison th:last-child,.comparison td:last-child{border-right:0}.comparison tr:last-child th,.comparison tr:last-child td{border-bottom:0}.comparison thead th{background:var(--gray);font-size:29px;vertical-align:middle}.comparison thead th:first-child{font-size:23px;color:var(--muted)}.comparison thead th:last-child{background:var(--pink);color:var(--red-dark)}.comparison tbody th{font-weight:700;font-size:24px;background:#fafafa;vertical-align:middle}.comparison td strong{font-weight:700}.comparison .qualifier{display:block;color:var(--muted);font-size:21px;margin-top:6px}.comparison .recommend-row td{background:#fcf8f8}.comparison .recommend-row td:last-child{color:var(--red-dark)}.gates-grid{display:grid;grid-template-columns:.96fr 1.25fr;gap:24px}.gaps-panel{padding:21px 25px}.gap-item{display:grid;grid-template-columns:48px 1fr;gap:14px;border-top:1px solid var(--line);padding:14px 0}.gap-item:first-of-type{border-top:0;padding-top:1px}.gap-number{font-size:21px;font-weight:700;color:var(--red);padding-top:3px}.gap-item h3{font-size:25px;line-height:1.35;margin:0 0 5px}.gap-item p{font-size:23px;line-height:1.48;margin:0;color:var(--muted)}.milestone-panel{padding:21px 25px;background:#fafafa}.milestone-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:13px}.milestone-header .panel-title{margin:0}.milestone-header span{font-size:19px;color:var(--muted)}.phase{display:grid;grid-template-columns:37px 1fr;gap:16px;position:relative;padding-bottom:17px}.phase:last-of-type{padding-bottom:0}.phase:not(:last-of-type):before{content:"";position:absolute;left:17px;top:34px;bottom:0;border-left:2px solid #ddbcc1}.phase-number{width:36px;height:36px;display:flex;align-items:center;justify-content:center;font-size:20px;background:var(--red);color:white;border-radius:50%;font-weight:700;z-index:1}.phase h3{font-size:25px;line-height:1.4;margin:0 0 6px}.phase p{font-size:23px;line-height:1.48;margin:0}.phase p+p{margin-top:4px;color:var(--muted);font-size:21px}.gate-note{font-size:22px;line-height:1.45;background:var(--pink);border-radius:6px;padding:14px 17px;margin-top:14px;color:var(--red-dark)}.controls{border-top:1px solid var(--line);justify-content:space-between;min-height:68px}.page-nav{display:flex;align-items:center;gap:8px}.page-nav .page-button{width:37px;height:37px;border:1px solid var(--line);border-radius:50%;background:white;font-size:15px}.page-nav .page-button[aria-current="page"]{border-color:var(--red);background:var(--red);color:white;font-weight:700}.page-status{font-size:14px;color:var(--muted)}.key-hint{font-size:13px;color:var(--muted)}dialog{border:1px solid #d1d4d9;border-radius:14px;box-shadow:0 24px 80px #0003;padding:0;max-width:min(1120px,calc(100vw - 32px));max-height:calc(100vh - 40px);color:var(--ink);background:white;overflow:auto}dialog::backdrop{background:#15171bb8}.dialog-head{padding:22px 26px;display:flex;align-items:center;justify-content:space-between;gap:24px;border-bottom:1px solid var(--line);position:sticky;top:0;background:white;z-index:1}.dialog-head h2{font-size:24px;margin:0}.dialog-body{padding:24px 28px}.dialog-alert{padding:15px 18px;font-size:18px;line-height:1.6;margin:0 0 20px;color:var(--red-dark);background:var(--pink);font-weight:700}.evidence-note{padding:17px 0;border-bottom:1px solid var(--line)}.evidence-note:last-child{border-bottom:0}.evidence-note h3{font-size:21px;margin:0 0 9px}.evidence-note p{font-size:18px;line-height:1.7;margin:0 0 5px}.evidence-note .note-meta{color:var(--muted);font-size:16px}.diagram-dialog{width:1120px}.dialog-body svg{width:100%;height:auto;display:block}.dialog-caption{font-size:19px;line-height:1.7;margin-bottom:0}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.decision-panel{gap:12px}.decision-panel>.panel-title{margin-bottom:0}.decision-item{padding-bottom:12px}.decision-item h3{font-size:24px;line-height:1.35;margin-bottom:6px}.decision-item p{font-size:23px;line-height:1.45}.decision-tail{line-height:1.45}.gap-item{padding:8px 0}.gap-item h3{font-size:24px;margin-bottom:4px}.gap-item p{line-height:1.4}.phase{padding-bottom:12px}.phase h3{font-size:24px;line-height:1.35;margin-bottom:5px}.phase p{line-height:1.4}.phase p+p{line-height:1.4}.gate-note{font-size:21px}
+@media(max-width:800px){.appbar{padding:12px;gap:10px;align-items:flex-start}.app-title{font-size:15px;line-height:1.55}.app-title small{display:block;margin-left:0;font-size:12px}.toolbar{flex-wrap:wrap;justify-content:flex-end;gap:5px}.ui-button{padding:8px 10px;font-size:13px}.controls{padding:11px 12px;gap:9px;flex-wrap:wrap}.key-hint{display:none}.page-status{font-size:12px}.viewport{padding:12px}.dialog-head{padding:17px}.dialog-head h2{font-size:20px}.dialog-body{padding:18px}.dialog-alert,.evidence-note p{font-size:16px}.evidence-note h3{font-size:18px}}
+@media print{@page{size:1600px 900px;margin:0}html,body{margin:0!important;padding:0!important;width:1600px!important;height:auto!important;display:block!important;overflow:visible!important;background:white!important}.appbar,.controls,dialog,.sr-only,.zoom-button{display:none!important}.viewport{display:block!important;margin:0!important;padding:0!important;width:1600px!important;height:auto!important;overflow:visible!important}.stage{margin:0!important;width:1600px!important;height:auto!important;box-shadow:none!important;position:static!important}.slide,.slide[hidden]{display:grid!important;position:relative!important;top:auto!important;left:auto!important;width:1600px!important;height:900px!important;transform:none!important;break-after:page;page-break-after:always;break-inside:avoid;page-break-inside:avoid;print-color-adjust:exact;-webkit-print-color-adjust:exact}.slide:last-child{break-after:auto;page-break-after:auto}.source-button{border:0!important;color:var(--muted)!important;text-decoration:none!important}}
+</style>
+</head>
+<body>
+<header class="appbar">
+  <div class="app-title">澄迹传感 · 立项阅读示例<small>公司、证据与数据全部虚构 · 离线可用</small></div>
+  <div class="toolbar" aria-label="阅读工具">
+    <button type="button" class="ui-button" id="fitButton" aria-pressed="true">适应窗口</button>
+    <button type="button" class="ui-button" id="actualButton" aria-pressed="false">100% 阅读</button>
+    <button type="button" class="ui-button" data-notes>证据说明</button>
+    <button type="button" class="ui-button" id="printButton">打印三页</button>
+  </div>
+</header>
+<main class="viewport" id="viewport" aria-label="阅读区域">
+<div class="stage" id="stage">
+  <section class="slide" id="page1" aria-labelledby="title1" data-title="决策摘要">
+    <div class="topline"><span class="fiction-label">虚构示例｜公司、报告及全部数据均为虚构</span><span class="section-code">01 / 决策摘要</span></div>
+    <h1 id="title1" tabindex="-1">先验证夜间巡检净节省，再判断合作与投资路径</h1>
+    <div class="insight"><strong>本次建议</strong><p>对虚构公司「澄迹传感」启动受控试点与尽调；当前证据支持继续验证，尚不支持最终投资批准。</p></div>
+    <div class="content summary-grid">
+      <div class="summary-left">
+        <div class="panel diagram-panel">
+          <h2 class="panel-title">价值链路 <span class="minor">｜分析假设，须逐环验证</span></h2>
+          <button type="button" class="zoom-button" id="zoomButton" aria-haspopup="dialog">放大图示</button>
+          <figure aria-label="待验证的降本路径：有效检出与定位，减少巡检与查找，扣除新增成本后实现净节省。">
+            <svg id="valueDiagram" viewBox="0 0 900 147" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="diagramTitle diagramDesc">
+              <title id="diagramTitle">降本机制：三个环节均待验证</title><desc id="diagramDesc">有效检出与定位，带来巡检和查找工时减少，再扣除设备、接入、维护及告警复核成本，才可能实现净节省。</desc>
+              <defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 1 L8 5 L0 9" fill="none" stroke="#b91624" stroke-width="1.4"/></marker></defs>
+              <rect x="1" y="13" width="266" height="113" rx="9" fill="#fff" stroke="#dbc2c6"/><rect x="316" y="13" width="266" height="113" rx="9" fill="#fff" stroke="#dbc2c6"/><rect x="631" y="13" width="266" height="113" rx="9" fill="#fbf0f1" stroke="#b91624"/>
+              <path d="M277 70 H303" fill="none" stroke="#b91624" stroke-width="2.4" marker-end="url(#arrow)"/><path d="M592 70 H618" fill="none" stroke="#b91624" stroke-width="2.4" marker-end="url(#arrow)"/>
+              <g font-family="Microsoft YaHei,PingFang SC,sans-serif" text-anchor="middle"><g font-size="25" font-weight="700" fill="#25262a"><text x="134" y="51">有效检出与定位</text><text x="449" y="51">减少巡检与查找</text><text x="764" y="51" fill="#991321">形成可持续净节省</text></g><g font-size="21" fill="#62656c"><text x="134" y="85">漏报、误报与定位误差</text><text x="134" y="113">需同条件验证</text><text x="449" y="85">记录现场总工时</text><text x="449" y="113">保留运营安全门槛</text><text x="764" y="85">扣除设备、接入、维护</text><text x="764" y="113">及告警复核等成本</text></g></g>
+            </svg>
+          </figure>
+        </div>
+        <div class="evidence-pair">
+          <article class="panel">
+            <span class="status-tag">现有材料 · 报告所述</span>
+            <h3>2个站点 · 6周 · 9米</h3>
+            <p>虚构报告称平均定位误差9米；漏报率及对照方法缺失，尚不能证明可减少巡检。</p>
+            <button type="button" class="source-button" data-notes data-evidence="E01">E01 · 查看虚构证据说明</button>
+          </article>
+          <article class="panel">
+            <span class="status-tag gray">公司陈述 · 尚待核验</span>
+            <h3>“三周完成部署”</h3>
+            <p>虚构公司称三周可部署，未提供交付记录；周期定义与双方投入尚待核验。</p>
+            <button type="button" class="source-button" data-notes data-evidence="E02">E02 · 查看虚构证据说明</button>
+          </article>
+        </div>
+      </div>
+      <aside class="panel decision-panel">
+        <h2 class="panel-title">三个判断，分别成立</h2>
+        <div class="decision-item"><h3>公司能力｜验证仍不充分</h3><p>现有报告未覆盖检出完整性；部署效率仅有公司陈述。</p></div>
+        <div class="decision-item"><h3>投资方匹配｜需求明确，承接待定</h3><p>目标为减少夜间巡检人工。接入团队<strong>3人</strong>，剩余工时未知。<button type="button" class="source-button" data-notes data-evidence="E04">E04</button></p></div>
+        <div class="decision-item"><h3>股权交易｜必要性与条件待证</h3><p>采购、联合研发可一并比较；估值和股权权利尚未明确。</p></div>
+        <div class="decision-tail">本次立项：先明确试点范围、资源排期和预算。</div>
+      </aside>
+    </div>
+    <footer class="slide-footer"><span>依据：E01、E02、E04（均为虚构）｜材料日期未设定；未进行独立核验。</span><span>澄迹传感 · 虚构示例　01 / 03</span></footer>
+  </section>
+  <section class="slide" id="page2" aria-labelledby="title2" data-title="合作方式比较" hidden>
+    <div class="topline"><span class="fiction-label">虚构示例｜公司、报告及全部数据均为虚构</span><span class="section-code">02 / 合作方式比较</span></div>
+    <h1 id="title2" tabindex="-1">采购与联合研发先比较，股权投资需证明增量价值</h1>
+    <div class="insight"><strong>判断原则</strong><p>围绕同一降本目标比较成本、交付与权利。合作意愿不能替代履约证据，持股也不自动带来技术访问或排他合作。</p></div>
+    <div class="content comparison-wrap">
+      <table class="comparison" aria-label="采购、联合研发与股权投资的同口径比较">
+        <colgroup><col><col><col><col></colgroup>
+        <thead><tr><th scope="col">比较维度</th><th scope="col">采购</th><th scope="col">联合研发</th><th scope="col">股权投资</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">实现目标<br>的方式</th><td>购买满足运营要求的设备与服务，按可验收成果付费。</td><td>针对明确的现场缺口，共同开发并约定成果与使用权。</td><td>承担股权风险，换取合同合作之外可实现的长期价值。</td></tr>
+          <tr><th scope="row">当前证据<br>与限制</th><td>性能与部署效果尚待验证；采购报价和服务条款未提供。<span class="qualifier">E01、E02 · 虚构资料</span></td><td>公司计划研发防水封装和新增频段，未提供预算。<span class="qualifier">E03 · 未来计划，尚非交付</span></td><td>未提供估值与股权权利，也未证明持股带来的独有增量。<span class="qualifier">条件未明，不构成已获得权利</span></td></tr>
+          <tr><th scope="row">继续推进<br>所需条件</th><td>在满足检出要求的前提下，总成本优于现有方案；明确维保与交付责任。</td><td>把研发项对应到现场问题，明确预算、周期、验收及成果使用安排。</td><td>说明采购或研发合同无法充分取得的价值，并核实价格、权利与资源承诺。</td></tr>
+          <tr class="recommend-row"><th scope="row">本阶段<br>建议动作</th><td><strong>纳入试点与报价比较。</strong><br>产品达标后再判断采购经济性。</td><td><strong>先定义研发缺口。</strong><br>有需求依据和预算后再谈任务包。</td><td><strong>保留评估，暂不批准投资。</strong><br>增量价值与交易条件均待验证。</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <footer class="slide-footer"><span>依据：E01—E04（均为虚构）｜本表为分析框架；各合作安排与权利尚未约定。</span><span>澄迹传感 · 虚构示例　02 / 03</span></footer>
+  </section>
+  <section class="slide" id="page3" aria-labelledby="title3" data-title="证据缺口与里程碑" hidden>
+    <div class="topline"><span class="fiction-label">虚构示例｜公司、报告及全部数据均为虚构</span><span class="section-code">03 / 证据缺口与里程碑</span></div>
+    <h1 id="title3" tabindex="-1">用可验收结果分阶段推进，让证据决定投入上限</h1>
+    <div class="insight"><strong>阶段门槛</strong><p>先确定基线、验收指标和资源预算。出现漏报风险或复核成本抵消节省时，应调整方案或停止扩围。</p></div>
+    <div class="content gates-grid">
+      <section class="panel gaps-panel" aria-label="影响判断的证据缺口">
+        <h2 class="panel-title">四项缺口，直接影响决策</h2>
+        <div class="gap-item"><div class="gap-number">E01</div><div><h3>漏报率与对照方法缺失</h3><p>补核漏点真值、原始记录和同条件对照，判断能否减少巡检。</p></div></div>
+        <div class="gap-item"><div class="gap-number">E02</div><div><h3>部署周期缺少交付证据</h3><p>核对部署与验收记录、适用范围，确认周期及双方投入。</p></div></div>
+        <div class="gap-item"><div class="gap-number">E03</div><div><h3>研发计划尚无预算</h3><p>解释防水封装与新增频段的现场价值，拆出成本与验收成果。</p></div></div>
+        <div class="gap-item"><div class="gap-number">E04</div><div><h3>接入团队剩余工时未知</h3><p>核对3人团队现有任务与接入工作量，限定试点规模及排期。</p></div></div>
+      </section>
+      <section class="panel milestone-panel" aria-label="拟议验证里程碑">
+        <div class="milestone-header"><h2 class="panel-title">拟议里程碑</h2><span>下列均为建议动作，非既有承诺</span></div>
+        <div class="phase"><div class="phase-number">1</div><div><h3>启动前｜形成可执行的验证方案</h3><p>运营方定基线；接入团队排期；公司提交方案与报价。</p><p>启动条件：范围、费用、责任及验收阈值明确。</p></div></div>
+        <div class="phase"><div class="phase-number">2</div><div><h3>试点结束｜交付同口径性能与成本结论</h3><p>公司交日志；运营方核对漏点及工时；接入团队记投入。</p><p>推进条件：检出达标、净节省可重复、接入负担可承受。</p></div></div>
+        <div class="phase"><div class="phase-number">3</div><div><h3>合作决策前｜比较方式并明确约束</h3><p>达标则评估采购；有功能缺口则评估联合研发。</p><p>股权门槛：增量价值成立，估值、权利与风险可接受。</p></div></div>
+        <div class="gate-note">所有数值阈值、周期与预算均待协商。缺少资料不等于产品失效，也不能据此视为能力已验证。</div>
+      </section>
+    </div>
+    <footer class="slide-footer"><span>依据：E01—E04（均为虚构）｜里程碑为拟议要求；具体阈值与时间尚未确定。</span><span>澄迹传感 · 虚构示例　03 / 03</span></footer>
+  </section>
+</div>
+</main>
+<nav class="controls" aria-label="页面导航">
+  <div class="page-nav"><button type="button" class="ui-button" id="prevButton">← 上一页</button><button type="button" class="page-button" data-page="0" aria-label="第1页：决策摘要" aria-current="page">1</button><button type="button" class="page-button" data-page="1" aria-label="第2页：合作方式比较">2</button><button type="button" class="page-button" data-page="2" aria-label="第3页：证据缺口与里程碑">3</button><button type="button" class="ui-button" id="nextButton">下一页 →</button></div>
+  <span class="page-status" id="pageStatus" aria-live="polite"></span>
+  <span class="key-hint">方向键 / Page Up、Down 翻页 · Home、End 首尾页 · Esc 关闭弹窗</span>
+</nav>
+<dialog id="notesDialog" aria-labelledby="notesTitle">
+  <div class="dialog-head"><h2 id="notesTitle">虚构证据说明</h2><button type="button" class="ui-button" data-close>关闭并返回页面</button></div>
+  <div class="dialog-body">
+    <p class="dialog-alert">澄迹传感、以下报告与陈述、投资方及全部数据均为虚构。此示例只演示分析方法；未嵌入任何原始模板、真实公司或参考材料。</p>
+    <article class="evidence-note" id="noteE01"><h3>E01｜虚构试点报告 · 现有材料</h3><p>两个站点、六周试点，报告称平均定位误差9米。漏报率和对照方法未提供。</p><p>支持继续核验的线索；不能单独证明检出完整性或人工巡检可替代。需要原始记录、漏点真值、误差口径及同条件对照。</p><p class="note-meta">来源性质：虚构报告陈述。核验状态：未独立核验。报告日期与试点起止日期未设定。</p></article>
+    <article class="evidence-note" id="noteE02"><h3>E02｜虚构公司陈述 · 尚待核验</h3><p>公司称可在三周完成部署，但未提供交付与验收证据。</p><p>需要核对部署的起止定义、适用条件、项目范围与双方实际工时。陈述不能代替已交付能力。</p><p class="note-meta">来源性质：虚构公司陈述。核验状态：无交付证据。陈述日期未设定。</p></article>
+    <article class="evidence-note" id="noteE03"><h3>E03｜虚构融资计划 · 未来目标</h3><p>计划研发防水封装与新增频段，预算尚未提供。</p><p>先明确对应的现场问题，再拆分预算、资源、时间和验收成果。计划不等于完成事实，也不足以判断融资需求合理。</p><p class="note-meta">来源性质：虚构未来计划。核验状态：没有预算与交付记录。执行期限未设定。</p></article>
+    <article class="evidence-note" id="noteE04"><h3>E04｜虚构投资方需求简报 · 当前需求与资源陈述</h3><p>目标是降低夜间人工巡检成本；设备接入团队共3人，但剩余承接能力未知。</p><p>需要巡检工时与成本基线、现有任务及剩余工时。团队人数不能直接推导可并行试点数。</p><p class="note-meta">来源性质：虚构投资方简报。核验状态：仅给定需求和人数，未核实可用资源。简报日期未设定。</p></article>
+    <article class="evidence-note"><h3>分析边界与必要条件</h3><p>推荐动作是受控试点与尽调，不是最终投资批准。估值、排他合作、技术访问、数据使用与治理权利均未约定；不能由持股自动推得。</p><p>采购、联合研发与股权投资按同一运营目标比较。里程碑均为拟议要求，数值门槛、时间、预算和双方责任须在启动前明确。</p></article>
+  </div>
+</dialog>
+<dialog id="diagramDialog" class="diagram-dialog" aria-labelledby="zoomTitle">
+  <div class="dialog-head"><h2 id="zoomTitle">放大查看｜待验证的降本路径</h2><button type="button" class="ui-button" data-close>关闭并返回页面</button></div>
+  <div class="dialog-body"><p class="dialog-alert">虚构示例 · 本图为分析假设，三个环节均须验证。</p><div id="zoomContent"></div><p class="dialog-caption">有效检出与定位，并不直接等于成本下降。需要观察巡检、复核和查找总工时，再扣除设备、接入及维护成本；运营安全与检出要求是前提。</p></div>
+</dialog>
+<script>
+(() => {
+  'use strict';
+  const slides = Array.from(document.querySelectorAll('.slide'));
+  const viewport = document.getElementById('viewport');
+  const stage = document.getElementById('stage');
+  const fitButton = document.getElementById('fitButton');
+  const actualButton = document.getElementById('actualButton');
+  const prevButton = document.getElementById('prevButton');
+  const nextButton = document.getElementById('nextButton');
+  const pageStatus = document.getElementById('pageStatus');
+  const pageButtons = Array.from(document.querySelectorAll('[data-page]'));
+  const notesDialog = document.getElementById('notesDialog');
+  const diagramDialog = document.getElementById('diagramDialog');
+  let current = 0;
+  let mode = window.innerWidth < 900 ? 'actual' : 'fit';
+  let modalOpener = null;
+  let modalPage = 0;
+
+  function updateScale() {
+    const styles = getComputedStyle(viewport);
+    const availableWidth = viewport.clientWidth - parseFloat(styles.paddingLeft) - parseFloat(styles.paddingRight);
+    const availableHeight = viewport.clientHeight - parseFloat(styles.paddingTop) - parseFloat(styles.paddingBottom);
+    const scale = mode === 'actual' ? 1 : Math.min(1, Math.max(.05, Math.min(availableWidth / 1600, availableHeight / 900)));
+    stage.style.width = `${1600 * scale}px`;
+    stage.style.height = `${900 * scale}px`;
+    slides.forEach(slide => { slide.style.transform = `scale(${scale})`; });
+    fitButton.setAttribute('aria-pressed', String(mode === 'fit'));
+    actualButton.setAttribute('aria-pressed', String(mode === 'actual'));
+    pageStatus.textContent = `${current + 1} / ${slides.length} · ${slides[current].dataset.title} · ${mode === 'actual' ? '100%（可横向、纵向滚动）' : `适应窗口 ${Math.round(scale * 100)}%`}`;
+  }
+  function showPage(index, focusHeading = false) {
+    current = Math.max(0, Math.min(slides.length - 1, index));
+    slides.forEach((slide, i) => { slide.hidden = i !== current; });
+    pageButtons.forEach((button, i) => {
+      if (i === current) button.setAttribute('aria-current', 'page');
+      else button.removeAttribute('aria-current');
+    });
+    prevButton.disabled = current === 0;
+    nextButton.disabled = current === slides.length - 1;
+    viewport.scrollTo({top:0,left:0,behavior:'instant'});
+    updateScale();
+    if (focusHeading) slides[current].querySelector('h1').focus({preventScroll:true});
+  }
+  function setMode(nextMode) {
+    mode = nextMode;
+    viewport.scrollTo({top:0,left:0,behavior:'instant'});
+    updateScale();
+  }
+  function openDialog(dialog, trigger, evidenceId) {
+    modalOpener = trigger;
+    modalPage = current;
+    dialog.showModal();
+    dialog.scrollTop = 0;
+    dialog.querySelector('[data-close]').focus({preventScroll:true});
+    if (evidenceId) {
+      const note = document.getElementById(`note${evidenceId}`);
+      if (note) dialog.scrollTop = Math.max(0, note.offsetTop - dialog.querySelector('.dialog-head').offsetHeight - 16);
+    }
+  }
+  function restoreFocus() {
+    if (current !== modalPage) showPage(modalPage);
+    if (modalOpener && modalOpener.isConnected) modalOpener.focus({preventScroll:true});
+    else slides[current].querySelector('h1').focus({preventScroll:true});
+    modalOpener = null;
+  }
+
+  fitButton.addEventListener('click', () => setMode('fit'));
+  actualButton.addEventListener('click', () => setMode('actual'));
+  prevButton.addEventListener('click', () => showPage(current - 1));
+  nextButton.addEventListener('click', () => showPage(current + 1));
+  pageButtons.forEach(button => button.addEventListener('click', () => showPage(Number(button.dataset.page))));
+  document.querySelectorAll('[data-notes]').forEach(button => button.addEventListener('click', () => openDialog(notesDialog, button, button.dataset.evidence)));
+  document.getElementById('zoomButton').addEventListener('click', event => {
+    const clone = document.getElementById('valueDiagram').cloneNode(true);
+    clone.id = 'enlargedValueDiagram';
+    clone.querySelectorAll('[id]').forEach(node => { node.id += 'Zoom'; });
+    clone.setAttribute('aria-labelledby', 'diagramTitleZoom diagramDescZoom');
+    clone.querySelectorAll('[marker-end]').forEach(node => node.setAttribute('marker-end','url(#arrowZoom)'));
+    document.getElementById('zoomContent').replaceChildren(clone);
+    openDialog(diagramDialog, event.currentTarget);
+  });
+  [notesDialog, diagramDialog].forEach(dialog => {
+    dialog.querySelector('[data-close]').addEventListener('click', () => dialog.close());
+    dialog.addEventListener('close', restoreFocus);
+    dialog.addEventListener('click', event => {
+      if (event.target !== dialog) return;
+      const box = dialog.getBoundingClientRect();
+      if (event.clientX < box.left || event.clientX > box.right || event.clientY < box.top || event.clientY > box.bottom) dialog.close();
+    });
+  });
+  document.getElementById('printButton').addEventListener('click', () => window.print());
+  document.addEventListener('keydown', event => {
+    if (notesDialog.open || diagramDialog.open || event.altKey || event.ctrlKey || event.metaKey) return;
+    if (event.target.closest('input,textarea,select,[contenteditable="true"]')) return;
+    let target = null;
+    if (['ArrowRight','ArrowDown','PageDown'].includes(event.key)) target = current + 1;
+    if (['ArrowLeft','ArrowUp','PageUp'].includes(event.key)) target = current - 1;
+    if (event.key === 'Home') target = 0;
+    if (event.key === 'End') target = slides.length - 1;
+    if (target !== null) { event.preventDefault(); showPage(target, true); }
+  });
+  window.addEventListener('resize', updateScale);
+  if ('ResizeObserver' in window) new ResizeObserver(updateScale).observe(viewport);
+  showPage(0);
+})();
+</script>
+</body>
+</html>

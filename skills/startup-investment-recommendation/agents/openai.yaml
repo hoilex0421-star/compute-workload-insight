@@ -1,4 +1,4 @@
 interface:
   display_name: "初创企业投资推荐写作"
-  short_description: "面向技术型初创企业战略投资，搭建论证框架、撰写逐页文案并审阅证据与风险"
-  default_prompt: "用 $startup-investment-recommendation，根据这些资料整理初创企业战略投资推荐材料，明确投资理由、证据缺口、关键风险与投后目标。"
+  short_description: "撰写初创企业战略投资材料，支持框架、文案、离线HTML及证据审阅"
+  default_prompt: "用 $startup-investment-recommendation，将这些资料写成可离线阅读的HTML投资推荐材料，明确投资理由、证据缺口、关键风险与投后目标。"

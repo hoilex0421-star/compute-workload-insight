@@ -41,7 +41,7 @@
 - `references/`：分析字段、页型、前置推导、视觉规则、验收清单及来源索引。
 - `references/images/`：用户提供的参考照片及PDF精选页，用于学习论证与版式。
 - `assets/`：三页HTML、逐页预览及原有标准专题PPT示例。
-- `skills/startup-investment-recommendation/`：仓库中原有的独立技能，本次保持不变。
+- [初创企业投资推荐技能](skills/startup-investment-recommendation/SKILL.md)：支持框架、文案、离线HTML与证据审阅。[三页虚构HTML示例](skills/startup-investment-recommendation/assets/investment-example.html) · [预览](skills/startup-investment-recommendation/assets/investment-example-preview.png)。该技能目录仅含通用方法与原创虚构示例，不含原始投资模板。
 
 本仓库为私有。参考资料来自用户提供的材料，详细页码映射见[参考索引](references/source-gallery.md)。参考图和示例中的技术说法、数值及预测未因纳入模板而得到独立核验；新专题须重新判断证据状态。扫描图的微小标签受源文件清晰度限制。
 
